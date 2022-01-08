@@ -33,6 +33,7 @@ const DivTitle = styled.div`
 
   @media (max-width: 700px) {
     font-size: 40px;
+    height: 60vh;
   }
   @media (max-width: 380px) {
     font-size: 30px;

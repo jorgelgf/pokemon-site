@@ -116,6 +116,7 @@ const ImageSad = styled.img`
 `;
 const DivCard = styled.div`
   transform: translateY(20px);
+  padding-bottom: 50px;
   animation: animeUp 0.4s forwards;
 
   @keyframes animeUp {
