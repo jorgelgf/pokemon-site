@@ -1,4 +1,6 @@
-# Site descreve as forças e fraquezas dos Pokémons
+# Site Pokemon
+
+## Este site descreve as forças e fraquezas dos pokémons de forma genérica.
 
 ## Desktop
 
