@@ -4,7 +4,7 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import { CardActionArea } from "@mui/material";
-import { Weak } from "./Weak";
+import { WeakStrong } from "./WeakStrong";
 
 //showing pokemons on cards
 
@@ -23,7 +23,7 @@ export default function ActionAreaCard({ name, type, img }) {
             <b>Type: </b>
             {type}
             <br />
-            <b>Weak:</b> <Weak type={type} />
+            <WeakStrong type={type} />
           </Typography>
         </CardContent>
       </CardActionArea>
