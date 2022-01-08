@@ -10,16 +10,19 @@ import { WeakStrong } from "./WeakStrong";
 
 export default function ActionAreaCard({ name, type, img }) {
   return (
-    <Card sx={{ maxWidth: 500, bgcolor: "#f8efc9df" }}>
+    <Card
+      sx={{
+        maxWidth: 400,
+        bgcolor: "#f8efc9df",
+      }}
+    >
       <CardActionArea>
         <CardMedia component="img" height="320" image={img} alt={name} />
         <CardContent style={{ textTransform: "capitalize" }}>
           <Typography gutterBottom variant="h5" component="div">
-            <b style={{ fontFamily: "Press Start 2P" }}>{name}</b>
+            <b>{name}</b>
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            <b>Name: </b>
-            {name} <br />
             <b>Type: </b>
             {type}
             <br />
