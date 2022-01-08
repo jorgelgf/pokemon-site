@@ -1,4 +1,4 @@
-# Site para encontrar pokemons
+# Site descreve as forças e fraquezas dos Pokémons
 
 ## Desktop
 
