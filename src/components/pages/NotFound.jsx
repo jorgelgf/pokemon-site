@@ -22,4 +22,5 @@ const DiVNotFound = styled.div`
   margin-top: 10%;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 150px;
 `;

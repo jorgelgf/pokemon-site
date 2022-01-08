@@ -101,6 +101,7 @@ const DivSad = styled.div`
   align-items: center;
   font-size: 50px;
   font-family: "Press Start 2P", cursive;
+  padding-bottom: 50px;
   @media (max-width: 900px) {
     font-size: 20px;
   }
