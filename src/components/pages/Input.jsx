@@ -16,7 +16,6 @@ export default function Input({ id }) {
       );
   }
   if (pok) {
-    // console.log(typeof pok.types[0].type.name)
   }
   if (loading) return <Loading />;
   return (
@@ -50,6 +49,8 @@ export default function Input({ id }) {
   );
 }
 
+//Styled components
+
 const DivForm = styled.form`
   display: flex;
   flex-direction: column;
@@ -79,13 +80,13 @@ const InputSearch = styled.input`
 `;
 
 const ButtonSearch = styled.button`
-  width: 80px;
-  height: 30px;
+  width: 180px;
+  height: 50px;
   border-color: #e0dab8;
   border-radius: 10px;
   background-color: #f0c909;
   color: #726412;
-  font-size: 10px;
+  font-size: 30px;
 
   @media (max-width: 1024px) {
     font-size: 50px;

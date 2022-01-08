@@ -11,6 +11,9 @@ export default function Header({ id }) {
     </>
   );
 }
+
+//Styled components
+
 const DivTitle = styled.div`
   font-family: "Press Start 2P", cursive;
   margin-bottom: 3%;

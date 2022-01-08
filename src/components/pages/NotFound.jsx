@@ -15,6 +15,8 @@ export default function NotFound() {
   );
 }
 
+//Styled components
+
 const DiVNotFound = styled.div`
   display: flex;
   margin-top: 10%;

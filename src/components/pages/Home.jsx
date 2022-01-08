@@ -4,8 +4,6 @@ import Header from "./Header";
 import Input from "./Input";
 
 export default function Home() {
-  //`https://pokeapi.co/api/v2/pokemon/zubat`
-
   return (
     <DivFull>
       <Header id="nameSite" />
@@ -14,6 +12,7 @@ export default function Home() {
   );
 }
 
+//Styled components
 const DivFull = styled.div`
   width: 100vw;
   height: 100vh;
