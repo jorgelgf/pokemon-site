@@ -22,6 +22,8 @@ export const WeakStrong = ({ type }) => {
     Steel: "Fire, Poison, Bug, Fairy, Ground",
     Fairy: "Fire, Ground, Flying, Poison, Steel",
   };
+
+  //Strong against
   const strong = {
     Fire: " Bug, Grass, Ice, Steel",
     Normal: " --",

@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import Header from "./Header";
-import Input from "./Input";
+import Header from "../header/Header";
+import Input from "../input/Input";
 
 export default function Home() {
   return (

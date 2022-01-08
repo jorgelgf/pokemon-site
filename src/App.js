@@ -1,10 +1,10 @@
 import "./App.css";
-import Home from "./components/pages/Home";
+import Home from "./components/pages/home/Home";
 import styled from "styled-components";
 function App() {
   return (
     <DivPreHome>
-      <Home></Home>
+      <Home />
     </DivPreHome>
   );
 }

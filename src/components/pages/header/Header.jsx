@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import bgTop from "../../img/bgTop.jpg";
+import bgTop from "../../../img/bgTop.jpg";
 
 export default function Header({ id }) {
   return (
