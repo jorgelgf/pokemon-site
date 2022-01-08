@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import ActionAreaCard from "../../actionCard/ActionCard";
-import useFetch from "../../api/useFetch";
+import useFetch from "../../service/useFetch";
 import sadpok from "../../../img/sadpok.gif";
 import Loading from "../loading/Loading";
 import * as S from "./styles";
