@@ -38,6 +38,7 @@ export const InputSearch = styled.input`
 `;
 
 export const ButtonSearch = styled.button`
+  cursor: pointer;
   @media (max-width: 1024px) {
     font-size: 50px;
     height: 60px;
