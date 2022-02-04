@@ -1,23 +1,12 @@
 import React from "react";
-import styled from "styled-components";
 import Header from "../header/Header";
 import Input from "../input/Input";
-
+import * as S from "./style";
 export default function Home() {
   return (
-    <DivFull>
+    <S.DivFull>
       <Header id="nameSite" />
       <Input id="nameSite" />
-    </DivFull>
+    </S.DivFull>
   );
 }
-
-//Styled components
-const DivFull = styled.div`
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: rgba(255, 255, 255, 0.87);
-`;
