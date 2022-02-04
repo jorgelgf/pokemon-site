@@ -6,6 +6,7 @@ export const DivForm = styled.form`
   align-items: center;
   margin-bottom: 30px;
   button {
+    cursor: pointer;
     width: 180px;
     height: 50px;
     border-color: #e0dab8;
