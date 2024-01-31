@@ -1,7 +1,6 @@
 # Site Pokemon
 
-## 
-This site describes the strengths and weaknesses of Pokémon in a generic way.
+## This site describes the strengths and weaknesses of Pokémon in a generic way.
 This site describes the strengths and weaknesses of Pokémon in a generic way.
 
 ## Desktop
